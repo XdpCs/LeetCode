@@ -1,6 +1,6 @@
 package leetcode
 
-// @Title        2236.Root-Equals-Sum-of-Children.go
+// @Title        2413.Smallest-Even-Multiple.go
 // @Description  2413.Smallest-Even-Multiple solution
 // @Create       XdpCs 2023-09-19 17:31
 // @Update       XdpCs 2023-09-19 17:31
