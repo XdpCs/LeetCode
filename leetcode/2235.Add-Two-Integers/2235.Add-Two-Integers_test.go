@@ -5,8 +5,8 @@ import (
 	"testing"
 )
 
-// @Title        2235:Add-Two-Integers_test.go
-// @Description  2235:Add-Two-Integers solution test
+// @Title        2235.Add-Two-Integers_test.go
+// @Description  2235.Add-Two-Integers solution test
 // @Create       XdpCs 2023-09-18 21:05
 // @Update       XdpCs 2023-09-18 21:05
 
