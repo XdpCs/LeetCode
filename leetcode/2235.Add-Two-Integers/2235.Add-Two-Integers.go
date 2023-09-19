@@ -1,7 +1,7 @@
 package leetcode
 
-// @Title        2469:Convert-the-Temperature.go
-// @Description  2235:Add-Two-Integers solution
+// @Title        2235.Add-Two-Integers.go
+// @Description  2235.Add-Two-Integers solution
 // @Create       XdpCs 2023-09-18 21:05
 // @Update       XdpCs 2023-09-18 21:05
 

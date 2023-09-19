@@ -1,7 +1,7 @@
 package leetcode
 
-// @Title        2469:Convert-the-Temperature.go
-// @Description  2469:Convert-the-Temperature solution
+// @Title        2469.Convert-the-Temperature.go
+// @Description  2469.Convert-the-Temperature solution
 // @Create       XdpCs 2023-09-18 21:05
 // @Update       XdpCs 2023-09-18 21:05
 
