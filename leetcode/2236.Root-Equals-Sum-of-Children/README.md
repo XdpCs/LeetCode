@@ -6,18 +6,36 @@
 
 如果根结点值等于两个子结点值之和，返回`true`，否则返回`false`。
 
-示例 1：
+**示例 1：**
 
-```
+![](../../images/2236/example1.png)
+
+```markdown
 输入：root = [10,4,6]
 输出：true
 解释：根结点、左子结点和右子结点的值分别是 10 、4 和 6 。
 由于 10 等于 4 + 6 ，因此返回 true 。
 ```
 
+**示例 2：**
+
+![](../../images/2236/example2.png)
+
+```markdown
+输入：root = [5,3,1]
+输出：false
+解释：根结点、左子结点和右子结点的值分别是 5 、3 和 1 。
+由于 5 不等于 3 + 1 ，因此返回 false 。
+```
+
+**限制**
+
+* 树只包含根结点、左子结点和右子结点
+* `-100 <= Node.val <= 100`
+
 ## 题目大意
 
-判断根结点是否等于左右两个子结点之和
+给你一个根结点，判断根结点的值是否等于左右两个子结点值之和
 
 ## 解题思路
 
@@ -25,4 +43,21 @@
 
 空间复杂度：O(1)
 
-判断根结点的值是否等于左右两个子结点之和，如果等于返回`true`，否则返回`false`。
+判断`root.Val`是否等于`root.Left.Val + root.Right.Val`，如果等于返回`true`，否则返回`false`。
+
+## 代码
+
+```go
+package leetcode
+
+type TreeNode struct {
+	Val   int
+	Left  *TreeNode
+	Right *TreeNode
+}
+
+func checkTree(root *TreeNode) bool {
+	return root.Val == (root.Left.Val + root.Right.Val)
+}
+```
+
