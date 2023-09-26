@@ -9,24 +9,29 @@
 
 ## 全部题库
 
-| 题号   | 标题             | 题解                                                | 难度   |
-|------|----------------|---------------------------------------------------|------|
-| 1486 | 数组异或操作         | [Go](./leetcode/1486.XOR-Operation-in-an-Array)   | easy |
-| 1512 | 好数对的数目         | [Go](./leetcode/1512.Number-of-Good-Pairs)        | easy |
-| 1534 | 统计好三元组         | [Go](./leetcode/1534.Count-Good-Triplets)         | easy |
-| 2235 | 两整数相加          | [Go](./leetcode/2235.Add-Two-Integers)            | easy |
-| 2236 | 判断根结点是否等于子结点之和 | [Go](./leetcode/2236.Root-Equals-Sum-of-Children) | easy |
-| 2413 | 最小偶倍数          | [Go](./leetcode/2413.Smallest-Even-Multiple)      | easy |
-| 2469 | 温度转换           | [Go](./leetcode/2469.Convert-the-Temperature)     | easy |
+| 题号   | 标题             | 题解                                                     | 难度   |
+|------|----------------|--------------------------------------------------------|------|
+| 0584 | 寻找用户推荐人        | [Sql](./leetcode/0584.Find-Customer-Referee)           | Easy |
+| 1486 | 数组异或操作         | [Go](./leetcode/1486.XOR-Operation-in-an-Array)        | Easy |
+| 1512 | 好数对的数目         | [Go](./leetcode/1512.Number-of-Good-Pairs)             | Easy |
+| 1534 | 统计好三元组         | [Go](./leetcode/1534.Count-Good-Triplets)              | Easy |
+| 1757 | 可回收且低脂的产品      | [Sql](./leetcode/1757.Recyclable-and-Low-Fat-Products) | Easy |
+| 2235 | 两整数相加          | [Go](./leetcode/2235.Add-Two-Integers)                 | Easy |
+| 2236 | 判断根结点是否等于子结点之和 | [Go](./leetcode/2236.Root-Equals-Sum-of-Children)      | Easy |
+| 2413 | 最小偶倍数          | [Go](./leetcode/2413.Smallest-Even-Multiple)           | Easy |
+| 2469 | 温度转换           | [Go](./leetcode/2469.Convert-the-Temperature)          | Easy |
 
 ## 「新」动计划 · 编程入门
 
-| 题号   | 标题             | 题解                                                | 难度   |
-|------|----------------|---------------------------------------------------|------|
-| 2235 | 两整数相加          | [Go](./leetcode/2235.Add-Two-Integers)            | easy |
-| 2469 | 温度转换           | [Go](./leetcode/2469.Convert-the-Temperature)     | easy |
-| 2413 | 最小偶倍数          | [Go](./leetcode/2413.Smallest-Even-Multiple)      | easy |
-| 2236 | 判断根结点是否等于子结点之和 | [Go](./leetcode/2236.Root-Equals-Sum-of-Children) | easy |
-| 1486 | 数组异或操作         | [Go](./leetcode/1486.XOR-Operation-in-an-Array)   | easy |
-| 1512 | 好数对的数目         | [Go](./leetcode/1512.Number-of-Good-Pairs)        | easy |
-| 1534 | 统计好三元组         | [Go](./leetcode/1534.Count-Good-Triplets)         | easy |
+| 题号   | 标题             | 题解                                                     | 难度   |
+|------|----------------|--------------------------------------------------------|------|
+| 2235 | 两整数相加          | [Go](./leetcode/2235.Add-Two-Integers)                 | Easy |
+| 2469 | 温度转换           | [Go](./leetcode/2469.Convert-the-Temperature)          | Easy |
+| 2413 | 最小偶倍数          | [Go](./leetcode/2413.Smallest-Even-Multiple)           | Easy |
+| 2236 | 判断根结点是否等于子结点之和 | [Go](./leetcode/2236.Root-Equals-Sum-of-Children)      | Easy |
+| 1486 | 数组异或操作         | [Go](./leetcode/1486.XOR-Operation-in-an-Array)        | Easy |
+| 1512 | 好数对的数目         | [Go](./leetcode/1512.Number-of-Good-Pairs)             | Easy |
+| 1534 | 统计好三元组         | [Go](./leetcode/1534.Count-Good-Triplets)              | Easy |
+| 0584 | 寻找用户推荐人        | [Sql](./leetcode/0584.Find-Customer-Referee)           | Easy |
+| 1757 | 可回收且低脂的产品      | [Sql](./leetcode/1757.Recyclable-and-Low-Fat-Products) | Easy |
+
