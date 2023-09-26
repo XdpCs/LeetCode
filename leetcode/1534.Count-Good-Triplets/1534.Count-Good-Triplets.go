@@ -1,7 +1,7 @@
 package leetcode
 
 // @Title        1534.Count-Good-Triplets.go
-// @Description
+// @Description  1534.Count-Good-Triplets solution
 // @Create       XdpCs 2023-09-25 17:35
 // @Update       XdpCs 2023-09-25 17:35
 

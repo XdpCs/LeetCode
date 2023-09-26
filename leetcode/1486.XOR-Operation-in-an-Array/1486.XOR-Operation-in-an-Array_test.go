@@ -6,7 +6,7 @@ import (
 )
 
 // @Title        1486.XOR-Operation-in-an-Array_test.go
-// @Description
+// @Description  1486.XOR-Operation-in-an-Array_test solution test
 // @Create       XdpCs 2023-09-25 16:17
 // @Update       XdpCs 2023-09-25 16:17
 
