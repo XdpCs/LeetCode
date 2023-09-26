@@ -6,7 +6,7 @@ import (
 )
 
 // @Title        1512.Number-of-Good-Pairs_test.go
-// @Description
+// @Description  1512.Number-of-Good-Pairs_test solution test
 // @Create       XdpCs 2023-09-25 16:39
 // @Update       XdpCs 2023-09-25 16:39
 

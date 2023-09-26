@@ -12,6 +12,7 @@
 | 题号   | 标题             | 题解                                                     | 难度   |
 |------|----------------|--------------------------------------------------------|------|
 | 0584 | 寻找用户推荐人        | [Sql](./leetcode/0584.Find-Customer-Referee)           | Easy |
+| 0709 | 转换成小写字母        | [Go](./leetcode/0709.To-Lower-Case)                    | Easy |
 | 1486 | 数组异或操作         | [Go](./leetcode/1486.XOR-Operation-in-an-Array)        | Easy |
 | 1512 | 好数对的数目         | [Go](./leetcode/1512.Number-of-Good-Pairs)             | Easy |
 | 1534 | 统计好三元组         | [Go](./leetcode/1534.Count-Good-Triplets)              | Easy |
@@ -34,4 +35,5 @@
 | 1534 | 统计好三元组         | [Go](./leetcode/1534.Count-Good-Triplets)              | Easy |
 | 0584 | 寻找用户推荐人        | [Sql](./leetcode/0584.Find-Customer-Referee)           | Easy |
 | 1757 | 可回收且低脂的产品      | [Sql](./leetcode/1757.Recyclable-and-Low-Fat-Products) | Easy |
+| 0709 | 转换成小写字母        | [Go](./leetcode/0709.To-Lower-Case)                    | Easy |
 

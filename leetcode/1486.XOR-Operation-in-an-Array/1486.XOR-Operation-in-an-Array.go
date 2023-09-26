@@ -1,7 +1,7 @@
 package leetcode
 
 // @Title        1486.XOR-Operation-in-an-Array.go
-// @Description
+// @Description  1486.XOR-Operation-in-an-Array solution
 // @Create       XdpCs 2023-09-25 13:32
 // @Update       XdpCs 2023-09-25 13:32
 

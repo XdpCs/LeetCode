@@ -6,7 +6,7 @@ import (
 )
 
 // @Title        1534.Count-Good-Triplets_test.go
-// @Description
+// @Description  1534.Count-Good-Triplets_test solution test
 // @Create       XdpCs 2023-09-25 19:12
 // @Update       XdpCs 2023-09-25 19:12
 
