@@ -1,14 +1,14 @@
 package leetcode
 
-import (
-	"fmt"
-	"testing"
-)
-
 // @Title        2236.Root-Equals-Sum-of-Children_test.go
 // @Description  2236.Root-Equals-Sum-of-Children test
 // @Create       XdpCs 2023-09-19 17:31
 // @Update       XdpCs 2023-09-19 17:31
+
+import (
+	"fmt"
+	"testing"
+)
 
 func TestCheckTree(t *testing.T) {
 	testCases := []struct {
