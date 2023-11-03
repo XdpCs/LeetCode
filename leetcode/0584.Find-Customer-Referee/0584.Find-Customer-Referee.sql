@@ -1,3 +1,8 @@
+# @Title        0584.Find-Customer-Referee.sql
+# @Description  0584.Find-Customer-Referee solution
+# @Create       XdpCs 2023-09-25 19:12
+# @Update       XdpCs 2023-09-25 19:12
+
 # sql schema
 Create table If Not Exists Customer
 (

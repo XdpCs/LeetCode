@@ -2,6 +2,7 @@
 # @Description  1757.Recyclable-and-Low-Fat-Products solution
 # @Create       XdpCs 2023-09-25 19:12
 # @Update       XdpCs 2023-09-25 19:12
+
 # sql schema
 Create table If Not Exists Products
 (
