@@ -1,14 +1,14 @@
 package leetcode
 
-import (
-	"fmt"
-	"testing"
-)
-
 // @Title        1512.Number-of-Good-Pairs_test.go
 // @Description  1512.Number-of-Good-Pairs_test solution test
 // @Create       XdpCs 2023-09-25 16:39
 // @Update       XdpCs 2023-09-25 16:39
+
+import (
+	"fmt"
+	"testing"
+)
 
 func TestNumIdenticalPairs(t *testing.T) {
 	testCases := []struct {

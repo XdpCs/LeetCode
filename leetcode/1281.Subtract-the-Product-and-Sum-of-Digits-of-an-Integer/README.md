@@ -1,0 +1,61 @@
+# [1281. 整数的各位积和之差](https://leetcode.cn/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)
+
+## 题目描述
+
+给你一个整数`n`，请你帮忙计算并返回该整数「各位数字之积」与「各位数字之和」的差。
+
+**示例 1：**
+
+```text
+输入：n = 234
+输出：15 
+解释：
+各位数之积 = 2 * 3 * 4 = 24 
+各位数之和 = 2 + 3 + 4 = 9 
+结果 = 24 - 9 = 15
+```
+
+**示例 2：**
+
+```text
+输入：n = 4421
+输出：21
+解释： 
+各位数之积 = 4 * 4 * 2 * 1 = 32 
+各位数之和 = 4 + 4 + 2 + 1 = 11 
+结果 = 32 - 11 = 21
+```
+
+**限制**
+
+* 1 <= n <= 10<sup>5</sup>
+
+## 题目大意
+
+给你一个整数`n`，计算并返回该整数「各位数字之积」与「各位数字之和」的差。
+
+## 解题思路
+
+时间复杂度：O(log n)
+
+空间复杂度：O(1)
+
+这个题目，按照题意，直接循环即可
+
+## 代码
+
+```go
+package leetcode
+
+func subtractProductAndSum(n int) int {
+	sum := 0
+	multiSum := 1
+	for ; n != 0; n /= 10 {
+		ans := n % 10
+		sum += ans
+		multiSum *= ans
+	}
+
+	return multiSum - sum
+}
+```

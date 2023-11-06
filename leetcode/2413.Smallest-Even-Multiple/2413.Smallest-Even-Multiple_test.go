@@ -1,14 +1,14 @@
 package leetcode
 
-import (
-	"fmt"
-	"testing"
-)
-
 // @Title        2413.Smallest-Even-Multiple_test.go
 // @Description  2413.Smallest-Even-Multiple solution test
 // @Create       XdpCs 2023-09-19 17:31
 // @Update       XdpCs 2023-09-19 17:31
+
+import (
+	"fmt"
+	"testing"
+)
 
 func TestSmallestEvenMultiple(t *testing.T) {
 	testCases := []struct {
