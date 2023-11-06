@@ -1,14 +1,14 @@
 package leetcode
 
-import (
-	"fmt"
-	"testing"
-)
-
 // @Title        1486.XOR-Operation-in-an-Array_test.go
 // @Description  1486.XOR-Operation-in-an-Array_test solution test
 // @Create       XdpCs 2023-09-25 16:17
 // @Update       XdpCs 2023-09-25 16:17
+
+import (
+	"fmt"
+	"testing"
+)
 
 func TestXorOperation(t *testing.T) {
 	testCases := []struct {
