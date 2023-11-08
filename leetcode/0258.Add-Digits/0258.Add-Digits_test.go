@@ -3,32 +3,32 @@ package leetcode
 // @Title        0258.Add-Digits_test.go
 // @Description  0258.Add-Digits test
 // @Create       XdpCs 2023-11-06 12:23
-// @Update       XdpCs 2023-11-06 12:23
+// @Update       XdpCs 2023-11-08 16:47
 
 import (
 	"fmt"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
+
+	"github.com/XdpCs/leetcode/util/test"
 )
 
 func TestAddDigits(t *testing.T) {
-	type test struct {
-		input  int
-		expect int
-	}
-
-	tests := []test{
+	testCases := []test.Case{
 		{
-			input:  38,
-			expect: 2,
+			Arg:    38,
+			Expect: 2,
 		},
 		{
-			input:  0,
-			expect: 0,
+			Arg:    0,
+			Expect: 0,
 		},
 	}
 
 	fmt.Println("------------------------LeetCode Problem 0258------------------------")
-	for _, test := range tests {
-		fmt.Printf("Input: %v Output: %v\n", test.input, addDigits(test.input))
+	for _, testCase := range testCases {
+		result := addDigits(testCase.Arg.(int))
+		assert.Equal(t, testCase.Expect, result, testCase.Print(result))
 	}
 }

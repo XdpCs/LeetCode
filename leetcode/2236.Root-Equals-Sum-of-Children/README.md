@@ -8,7 +8,7 @@
 
 **示例 1：**
 
-![example1](../../images/2236/example1.png)
+![example1](./images/example1.png)
 
 ```markdown
 输入：root = [10,4,6]
@@ -19,7 +19,7 @@
 
 **示例 2：**
 
-![example2](../../images/2236/example2.png)
+![example2](./images/example2.png)
 
 ```markdown
 输入：root = [5,3,1]
