@@ -7,9 +7,11 @@ package leetcode
 
 import (
 	"fmt"
-	"github.com/XdpCs/leetcode/util/test"
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
+
+	"github.com/XdpCs/leetcode/util/test"
 )
 
 func TestToLowerCase(t *testing.T) {
