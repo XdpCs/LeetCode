@@ -3,40 +3,41 @@ package leetcode
 // @Title        0709.To-Lower-Case_test.go
 // @Description  0709.To-Lower-Case_test solution test
 // @Create       XdpCs 2023-09-26 12:23
-// @Update       XdpCs 2023-09-26 12:23
+// @Update       XdpCs 2023-11-08 16:47
 
 import (
 	"fmt"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
+
+	"github.com/XdpCs/leetcode/util/test"
 )
 
 func TestToLowerCase(t *testing.T) {
-	type test struct {
-		input  string
-		expect string
-	}
 
-	tests := []test{
+	testCases := []test.Case{
 		{
-			input:  "Hello",
-			expect: "hello",
+			Arg:    "Hello",
+			Expect: "hello",
 		},
 		{
-			input:  "here",
-			expect: "here",
+			Arg:    "here",
+			Expect: "here",
 		},
 		{
-			input:  "LOVELY",
-			expect: "lovely",
+			Arg:    "LOVELY",
+			Expect: "lovely",
 		},
 		{
-			input:  "al&phaBET",
-			expect: "al&phabet",
+			Arg:    "al&phaBET",
+			Expect: "al&phabet",
 		},
 	}
 
 	fmt.Println("------------------------LeetCode Problem 0709------------------------")
-	for _, test := range tests {
-		fmt.Printf("Input: %s Output: %s\n", test.input, toLowerCase(test.input))
+	for _, testCase := range testCases {
+		result := toLowerCase(testCase.Arg.(string))
+		assert.Equal(t, testCase.Expect, result, testCase.Print(result))
 	}
 }

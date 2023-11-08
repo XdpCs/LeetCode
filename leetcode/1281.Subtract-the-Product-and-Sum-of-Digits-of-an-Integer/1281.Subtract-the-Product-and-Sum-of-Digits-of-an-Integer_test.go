@@ -3,32 +3,33 @@ package leetcode
 // @Title        1281.Subtract-the-Product-and-Sum-of-Digits-of-an-Integer_test.go
 // @Description  1281.Subtract-the-Product-and-Sum-of-Digits-of-an-Integer test
 // @Create       XdpCs 2023-11-06 12:23
-// @Update       XdpCs 2023-11-06 12:23
+// @Update       XdpCs 2023-11-08 16:47
 
 import (
 	"fmt"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
+
+	"github.com/XdpCs/leetcode/util/test"
 )
 
 func TestAddDigits(t *testing.T) {
-	type test struct {
-		input  int
-		expect int
-	}
 
-	tests := []test{
+	testCases := []test.Case{
 		{
-			input:  234,
-			expect: 15,
+			Arg:    234,
+			Expect: 15,
 		},
 		{
-			input:  4421,
-			expect: 21,
+			Arg:    4421,
+			Expect: 21,
 		},
 	}
 
 	fmt.Println("------------------------LeetCode Problem 1281------------------------")
-	for _, test := range tests {
-		fmt.Printf("Input: %v Output: %v\n", test.input, subtractProductAndSum(test.input))
+	for _, testCase := range testCases {
+		result := subtractProductAndSum(testCase.Arg.(int))
+		assert.Equal(t, testCase.Expect, result, testCase.Print(result))
 	}
 }
