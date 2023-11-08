@@ -1,7 +1,7 @@
 package test
 
-// @Title        arg.go
-// @Description
+// @Title        case.go
+// @Description  print test case
 // @Create       XdpCs 2023-11-08 16:47
 // @Update       XdpCs 2023-11-08 16:47
 
