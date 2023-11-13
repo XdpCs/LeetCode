@@ -6,24 +6,18 @@
 
 **示例 1：**
 
-```text
-输入：s = "Hello"
-输出："hello"
-```
+> 输入：s = "Hello"
+> 输出："hello"
 
 **示例 2：**
 
-```text
-输入：s = "here"
-输出："here"
-```
+> 输入：s = "here"
+> 输出："here"
 
 **示例 3：**
 
-```text
-输入：s = "LOVELY"
-输出："lovely"
-```
+> 输入：s = "LOVELY"
+> 输出："lovely"
 
 **限制**
 
