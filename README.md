@@ -11,7 +11,9 @@
 
 | 题号   | 标题             | 题解                                                                         | 难度   |
 |------|----------------|----------------------------------------------------------------------------|------|
+| 0231 | 2 的幂           | [Go](./leetcode/0231.Power-Of-Two)                                         | Easy |
 | 0258 | 各位相加           | [Go](./leetcode/0258.Add-Digits)                                           | Easy |
+| 0326 | 3 的幂           | [Go](./leetcode/0326.Power-Of-Three)                                       | Easy |
 | 0584 | 寻找用户推荐人        | [Sql](./leetcode/0584.Find-Customer-Referee)                               | Easy |
 | 0709 | 转换成小写字母        | [Go](./leetcode/0709.To-Lower-Case)                                        | Easy |
 | 1281 | 整数的各位积和之差      | [Go](./leetcode/1281.Subtract-the-Product-and-Sum-of-Digits-of-an-Integer) | Easy |
@@ -40,4 +42,6 @@
 | 0709 | 转换成小写字母        | [Go](./leetcode/0709.To-Lower-Case)                                        | Easy |
 | 0258 | 各位相加           | [Go](./leetcode/0258.Add-Digits)                                           | Easy |
 | 1281 | 整数的各位积和之差      | [Go](./leetcode/1281.Subtract-the-Product-and-Sum-of-Digits-of-an-Integer) | Easy |
+| 0231 | 2 的幂           | [Go](./leetcode/0231.Power-Of-Two)                                         | Easy |
+| 0326 | 3 的幂           | [Go](./leetcode/0326.Power-Of-Three)                                       | Easy |
 
