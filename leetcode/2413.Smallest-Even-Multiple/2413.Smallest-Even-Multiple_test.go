@@ -3,7 +3,7 @@ package leetcode
 // @Title        2413.Smallest-Even-Multiple_test.go
 // @Description  2413.Smallest-Even-Multiple solution test
 // @Create       XdpCs 2023-09-19 17:31
-// @Update       XdpCs 2023-11-08 16:47
+// @Update       XdpCs 2023-11-13 10:47
 
 import (
 	"fmt"
@@ -15,23 +15,20 @@ import (
 )
 
 func TestSmallestEvenMultiple(t *testing.T) {
-	type arg struct {
-		n int
-	}
 	testCases := []test.Case{
 		{
-			Arg:    arg{5},
+			Arg:    5,
 			Expect: 10,
 		},
 		{
-			Arg:    arg{6},
+			Arg:    6,
 			Expect: 6,
 		},
 	}
 
 	fmt.Println("------------------------LeetCode Problem 2413------------------------")
 	for _, testCase := range testCases {
-		result := smallestEvenMultiple(testCase.Arg.(arg).n)
+		result := smallestEvenMultiple(testCase.Arg.(int))
 		assert.Equal(t, testCase.Expect, result, testCase.Print(result))
 	}
 }
