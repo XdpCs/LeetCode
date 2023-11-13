@@ -1,3 +1,7 @@
+github.com/XdpCs/print-value v1.0.0 h1:4vp3nnAbL9rwP537kMiRFZ7SzD1wSOs3bGIOHy048XA=
+github.com/XdpCs/print-value v1.0.0/go.mod h1:z4krN0cgciMQOetswsb96Zt7smExQTdSDHnPrxWFj4I=
+github.com/XdpCs/print-value v1.0.1-0.20231113021252-d2451c8a0d3b h1:Aia8Xs1n43nAGI7Ph+4oR0Ey/c6IuGC3J1rv8gch1Ec=
+github.com/XdpCs/print-value v1.0.1-0.20231113021252-d2451c8a0d3b/go.mod h1:z4krN0cgciMQOetswsb96Zt7smExQTdSDHnPrxWFj4I=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
