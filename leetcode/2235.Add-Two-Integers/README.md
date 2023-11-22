@@ -1,4 +1,4 @@
-# [2235. 两整数相加](https://leetcode.cn/problems/add-two-integers/)
+# [2235.两整数相加](https://leetcode.cn/problems/add-two-integers/)
 
 ## 题目描述
 

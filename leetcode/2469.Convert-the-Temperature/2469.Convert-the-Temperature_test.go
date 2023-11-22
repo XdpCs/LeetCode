@@ -17,18 +17,18 @@ import (
 func TestConvertTemperature(t *testing.T) {
 	testCases := []test.Case{
 		{
-			Arg:    36.50,
-			Expect: []float64{309.65, 97.70},
+			Arg:      36.50,
+			Expected: []float64{309.65, 97.70},
 		},
 		{
-			Arg:    122.11,
-			Expect: []float64{395.26, 251.798},
+			Arg:      122.11,
+			Expected: []float64{395.26, 251.798},
 		},
 	}
 
 	fmt.Println("------------------------LeetCode Problem 2469------------------------")
 	for _, testCase := range testCases {
 		result := convertTemperature(testCase.Arg.(float64))
-		assert.Equal(t, testCase.Expect, result, testCase.Print(result))
+		assert.Equal(t, testCase.Expected, result, testCase.Print(result))
 	}
 }

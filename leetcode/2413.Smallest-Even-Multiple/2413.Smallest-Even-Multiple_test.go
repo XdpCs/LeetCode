@@ -17,18 +17,18 @@ import (
 func TestSmallestEvenMultiple(t *testing.T) {
 	testCases := []test.Case{
 		{
-			Arg:    5,
-			Expect: 10,
+			Arg:      5,
+			Expected: 10,
 		},
 		{
-			Arg:    6,
-			Expect: 6,
+			Arg:      6,
+			Expected: 6,
 		},
 	}
 
 	fmt.Println("------------------------LeetCode Problem 2413------------------------")
 	for _, testCase := range testCases {
 		result := smallestEvenMultiple(testCase.Arg.(int))
-		assert.Equal(t, testCase.Expect, result, testCase.Print(result))
+		assert.Equal(t, testCase.Expected, result, testCase.Print(result))
 	}
 }

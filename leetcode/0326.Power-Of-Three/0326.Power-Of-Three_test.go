@@ -16,20 +16,20 @@ import (
 
 var testCases = []test.Case{
 	{
-		Arg:    27,
-		Expect: true,
+		Arg:      27,
+		Expected: true,
 	},
 	{
-		Arg:    0,
-		Expect: false,
+		Arg:      0,
+		Expected: false,
 	},
 	{
-		Arg:    9,
-		Expect: true,
+		Arg:      9,
+		Expected: true,
 	},
 	{
-		Arg:    45,
-		Expect: false,
+		Arg:      45,
+		Expected: false,
 	},
 }
 
@@ -42,7 +42,7 @@ func TestIsPowerOfThree(t *testing.T) {
 	fmt.Println("------------------------LeetCode Problem 0326------------------------")
 	for _, testCase := range testCases {
 		result := isPowerOfThree(testCase.Arg.(int))
-		assert.Equal(t, testCase.Expect, result, testCase.Print(result))
+		assert.Equal(t, testCase.Expected, result, testCase.Print(result))
 	}
 }
 
@@ -50,6 +50,6 @@ func TestIsPowerOfThreeMath(t *testing.T) {
 	fmt.Println("------------------------LeetCode Problem 0326------------------------")
 	for _, testCase := range testCases {
 		result := isPowerOfThreeMath(testCase.Arg.(int))
-		assert.Equal(t, testCase.Expect, result, testCase.Print(result))
+		assert.Equal(t, testCase.Expected, result, testCase.Print(result))
 	}
 }

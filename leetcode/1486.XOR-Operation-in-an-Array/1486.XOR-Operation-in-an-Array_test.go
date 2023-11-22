@@ -25,28 +25,28 @@ var testCases = []test.Case{
 			N:     5,
 			Start: 0,
 		},
-		Expect: 8,
+		Expected: 8,
 	},
 	{
 		Arg: arg{
 			N:     4,
 			Start: 3,
 		},
-		Expect: 8,
+		Expected: 8,
 	},
 	{
 		Arg: arg{
 			N:     1,
 			Start: 7,
 		},
-		Expect: 7,
+		Expected: 7,
 	},
 	{
 		Arg: arg{
 			N:     10,
 			Start: 5,
 		},
-		Expect: 2,
+		Expected: 2,
 	},
 }
 
@@ -55,7 +55,7 @@ func TestXorOperation(t *testing.T) {
 	for _, testCase := range testCases {
 		arg := testCase.Arg.(arg)
 		result := xorOperation(arg.N, arg.Start)
-		assert.Equal(t, testCase.Expect, result, testCase.Print(result))
+		assert.Equal(t, testCase.Expected, result, testCase.Print(result))
 	}
 }
 
@@ -64,6 +64,6 @@ func TestXorOperationMath(t *testing.T) {
 	for _, testCase := range testCases {
 		arg := testCase.Arg.(arg)
 		result := xorOperationMath(arg.N, arg.Start)
-		assert.Equal(t, testCase.Expect, result, testCase.Print(result))
+		assert.Equal(t, testCase.Expected, result, testCase.Print(result))
 	}
 }

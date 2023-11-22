@@ -1,4 +1,4 @@
-# [0258. 各位相加](https://leetcode.cn/problems/add-digits/)
+# [0258.各位相加](https://leetcode.cn/problems/add-digits/)
 
 ## 题目描述
 

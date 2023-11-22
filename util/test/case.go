@@ -13,11 +13,11 @@ import (
 
 // Case	Arg's fields must be exported
 type Case struct {
-	Arg    any
-	Expect any
+	Arg      any
+	Expected any
 }
 
 func (c *Case) Print(output any) string {
-	return fmt.Sprintf("Input: %+v Output: %+v Expect: %+v\n", print.Print(c.Arg),
-		print.Print(output), print.Print(c.Expect))
+	return fmt.Sprintf("Input: %+v Output: %+v Expected: %+v\n", print.Print(c.Arg),
+		print.Print(output), print.Print(c.Expected))
 }

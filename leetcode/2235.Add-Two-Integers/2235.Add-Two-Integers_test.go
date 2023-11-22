@@ -25,28 +25,28 @@ func TestSum(t *testing.T) {
 				Num1: 1118,
 				Num2: 1114,
 			},
-			Expect: 1118 + 1114,
+			Expected: 1118 + 1114,
 		},
 		{
 			Arg: arg{
 				Num1: 12,
 				Num2: 5,
 			},
-			Expect: 12 + 5,
+			Expected: 12 + 5,
 		},
 		{
 			Arg: arg{
 				Num1: -10,
 				Num2: 4,
 			},
-			Expect: -10 + 4,
+			Expected: -10 + 4,
 		},
 		{
 			Arg: arg{
 				Num1: 0,
 				Num2: 0,
 			},
-			Expect: 0,
+			Expected: 0,
 		},
 	}
 
@@ -54,6 +54,6 @@ func TestSum(t *testing.T) {
 	for _, testCase := range testCases {
 		arg := testCase.Arg.(arg)
 		result := sum(arg.Num1, arg.Num2)
-		assert.Equal(t, testCase.Expect, result, testCase.Print(result))
+		assert.Equal(t, testCase.Expected, result, testCase.Print(result))
 	}
 }

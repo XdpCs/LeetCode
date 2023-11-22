@@ -16,24 +16,24 @@ import (
 
 var testCases = []test.Case{
 	{
-		Arg:    1,
-		Expect: true,
+		Arg:      1,
+		Expected: true,
 	},
 	{
-		Arg:    16,
-		Expect: true,
+		Arg:      16,
+		Expected: true,
 	},
 	{
-		Arg:    3,
-		Expect: false,
+		Arg:      3,
+		Expected: false,
 	},
 	{
-		Arg:    4,
-		Expect: true,
+		Arg:      4,
+		Expected: true,
 	},
 	{
-		Arg:    5,
-		Expect: false,
+		Arg:      5,
+		Expected: false,
 	},
 }
 
@@ -41,7 +41,7 @@ func TestIsPowerOfTwo(t *testing.T) {
 	fmt.Println("------------------------LeetCode Problem 0231------------------------")
 	for _, testCase := range testCases {
 		result := isPowerOfTwo(testCase.Arg.(int))
-		assert.Equal(t, testCase.Expect, result, testCase.Print(result))
+		assert.Equal(t, testCase.Expected, result, testCase.Print(result))
 	}
 }
 
@@ -49,7 +49,7 @@ func TestIsPowerOfTwoStorage(t *testing.T) {
 	fmt.Println("------------------------LeetCode Problem 0231------------------------")
 	for _, testCase := range testCases {
 		result := isPowerOfTwoStorage(testCase.Arg.(int))
-		assert.Equal(t, testCase.Expect, result, testCase.Print(result))
+		assert.Equal(t, testCase.Expected, result, testCase.Print(result))
 	}
 }
 
@@ -57,6 +57,6 @@ func TestIsPowerOfTwoMaxNum(t *testing.T) {
 	fmt.Println("------------------------LeetCode Problem 0231------------------------")
 	for _, testCase := range testCases {
 		result := isPowerOfTwoMaxNum(testCase.Arg.(int))
-		assert.Equal(t, testCase.Expect, result, testCase.Print(result))
+		assert.Equal(t, testCase.Expected, result, testCase.Print(result))
 	}
 }
