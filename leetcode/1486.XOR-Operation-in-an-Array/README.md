@@ -1,4 +1,4 @@
-# [1486. 数组异或操作](https://leetcode.cn/problems/xor-operation-in-an-array/)
+# [1486.数组异或操作](https://leetcode.cn/problems/xor-operation-in-an-array/)
 
 ## 题目描述
 

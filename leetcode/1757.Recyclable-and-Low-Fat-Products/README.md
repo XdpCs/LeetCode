@@ -1,4 +1,4 @@
-# [1757. 可回收且低脂的产品](https://leetcode.cn/problems/recyclable-and-low-fat-products/)
+# [1757.可回收且低脂的产品](https://leetcode.cn/problems/recyclable-and-low-fat-products/)
 
 ## 题目描述
 

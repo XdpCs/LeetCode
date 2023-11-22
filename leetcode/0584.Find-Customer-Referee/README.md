@@ -1,4 +1,4 @@
-# [0584. 寻找用户推荐人](https://leetcode.cn/problems/find-customer-referee/)
+# [0584.寻找用户推荐人](https://leetcode.cn/problems/find-customer-referee/)
 
 ## 题目描述
 

@@ -13,10 +13,13 @@
 |------|----------------|----------------------------------------------------------------------------|------|
 | 0231 | 2 的幂           | [Go](./leetcode/0231.Power-Of-Two)                                         | Easy |
 | 0258 | 各位相加           | [Go](./leetcode/0258.Add-Digits)                                           | Easy |
+| 0263 | 丑数             | [Go](./leetcode/0263.Ugly-Number)                                          | Easy |
 | 0326 | 3 的幂           | [Go](./leetcode/0326.Power-Of-Three)                                       | Easy |
 | 0584 | 寻找用户推荐人        | [Sql](./leetcode/0584.Find-Customer-Referee)                               | Easy |
 | 0709 | 转换成小写字母        | [Go](./leetcode/0709.To-Lower-Case)                                        | Easy |
+| 0867 | 转置矩阵           | [Go](./leetcode/0867.Transpose-Matrix)                                     | Easy |
 | 1281 | 整数的各位积和之差      | [Go](./leetcode/1281.Subtract-the-Product-and-Sum-of-Digits-of-an-Integer) | Easy |
+| 1470 | 重新排列数组         | [Go](./leetcode/1470.Shuffle-The-Array)                                    | Easy |
 | 1486 | 数组异或操作         | [Go](./leetcode/1486.XOR-Operation-in-an-Array)                            | Easy |
 | 1512 | 好数对的数目         | [Go](./leetcode/1512.Number-of-Good-Pairs)                                 | Easy |
 | 1534 | 统计好三元组         | [Go](./leetcode/1534.Count-Good-Triplets)                                  | Easy |
@@ -44,4 +47,7 @@
 | 1281 | 整数的各位积和之差      | [Go](./leetcode/1281.Subtract-the-Product-and-Sum-of-Digits-of-an-Integer) | Easy |
 | 0231 | 2 的幂           | [Go](./leetcode/0231.Power-Of-Two)                                         | Easy |
 | 0326 | 3 的幂           | [Go](./leetcode/0326.Power-Of-Three)                                       | Easy |
+| 0263 | 丑数             | [Go](./leetcode/0263.Ugly-Number)                                          | Easy |
+| 1470 | 重新排列数组         | [Go](./leetcode/1470.Shuffle-The-Array)                                    | Easy |
+| 0867 | 转置矩阵           | [Go](./leetcode/0867.Transpose-Matrix)                                     | Easy |
 

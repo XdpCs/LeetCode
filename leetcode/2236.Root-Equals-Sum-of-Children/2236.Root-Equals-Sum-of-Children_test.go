@@ -27,7 +27,7 @@ func TestCheckTree(t *testing.T) {
 				},
 			},
 
-			Expect: true,
+			Expected: true,
 		},
 		{
 			Arg: &TreeNode{
@@ -39,13 +39,13 @@ func TestCheckTree(t *testing.T) {
 					Val: 1,
 				},
 			},
-			Expect: false,
+			Expected: false,
 		},
 	}
 
 	fmt.Println("------------------------LeetCode Problem 2236------------------------")
 	for _, testCase := range testCases {
 		result := checkTree(testCase.Arg.(*TreeNode))
-		assert.Equal(t, testCase.Expect, result, testCase.Print(result))
+		assert.Equal(t, testCase.Expected, result, testCase.Print(result))
 	}
 }

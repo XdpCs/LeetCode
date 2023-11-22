@@ -17,22 +17,22 @@ import (
 func TestNumIdenticalPairs(t *testing.T) {
 	testCases := []test.Case{
 		{
-			Arg:    []int{1, 2, 3, 1, 1, 3},
-			Expect: 4,
+			Arg:      []int{1, 2, 3, 1, 1, 3},
+			Expected: 4,
 		},
 		{
-			Arg:    []int{1, 1, 1, 1},
-			Expect: 6,
+			Arg:      []int{1, 1, 1, 1},
+			Expected: 6,
 		},
 		{
-			Arg:    []int{1, 2, 3},
-			Expect: 0,
+			Arg:      []int{1, 2, 3},
+			Expected: 0,
 		},
 	}
 
 	fmt.Println("------------------------LeetCode Problem 1512------------------------")
 	for _, testCase := range testCases {
 		result := numIdenticalPairs(testCase.Arg.([]int))
-		assert.Equal(t, testCase.Expect, result, testCase.Print(result))
+		assert.Equal(t, testCase.Expected, result, testCase.Print(result))
 	}
 }

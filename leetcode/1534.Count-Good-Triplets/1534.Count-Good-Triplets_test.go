@@ -29,7 +29,7 @@ func TestCountGoodTriplets(t *testing.T) {
 				B:   2,
 				C:   3,
 			},
-			Expect: 4,
+			Expected: 4,
 		},
 		{
 			Arg: arg{
@@ -38,7 +38,7 @@ func TestCountGoodTriplets(t *testing.T) {
 				B:   0,
 				C:   1,
 			},
-			Expect: 0,
+			Expected: 0,
 		},
 	}
 
@@ -46,6 +46,6 @@ func TestCountGoodTriplets(t *testing.T) {
 	for _, testCase := range testCases {
 		arg := testCase.Arg.(arg)
 		result := countGoodTriplets(arg.Arr, arg.A, arg.B, arg.C)
-		assert.Equal(t, testCase.Expect, result, testCase.Print(result))
+		assert.Equal(t, testCase.Expected, result, testCase.Print(result))
 	}
 }

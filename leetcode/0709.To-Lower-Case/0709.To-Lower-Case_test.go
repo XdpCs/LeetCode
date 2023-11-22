@@ -18,26 +18,26 @@ func TestToLowerCase(t *testing.T) {
 
 	testCases := []test.Case{
 		{
-			Arg:    "Hello",
-			Expect: "hello",
+			Arg:      "Hello",
+			Expected: "hello",
 		},
 		{
-			Arg:    "here",
-			Expect: "here",
+			Arg:      "here",
+			Expected: "here",
 		},
 		{
-			Arg:    "LOVELY",
-			Expect: "lovely",
+			Arg:      "LOVELY",
+			Expected: "lovely",
 		},
 		{
-			Arg:    "al&phaBET",
-			Expect: "al&phabet",
+			Arg:      "al&phaBET",
+			Expected: "al&phabet",
 		},
 	}
 
 	fmt.Println("------------------------LeetCode Problem 0709------------------------")
 	for _, testCase := range testCases {
 		result := toLowerCase(testCase.Arg.(string))
-		assert.Equal(t, testCase.Expect, result, testCase.Print(result))
+		assert.Equal(t, testCase.Expected, result, testCase.Print(result))
 	}
 }

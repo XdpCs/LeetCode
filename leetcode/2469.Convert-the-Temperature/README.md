@@ -1,4 +1,4 @@
-# [2469. 温度转换](https://leetcode.cn/problems/convert-the-temperature/)
+# [2469.温度转换](https://leetcode.cn/problems/convert-the-temperature/)
 
 ## 题目描述
 

@@ -18,18 +18,18 @@ func TestAddDigits(t *testing.T) {
 
 	testCases := []test.Case{
 		{
-			Arg:    234,
-			Expect: 15,
+			Arg:      234,
+			Expected: 15,
 		},
 		{
-			Arg:    4421,
-			Expect: 21,
+			Arg:      4421,
+			Expected: 21,
 		},
 	}
 
 	fmt.Println("------------------------LeetCode Problem 1281------------------------")
 	for _, testCase := range testCases {
 		result := subtractProductAndSum(testCase.Arg.(int))
-		assert.Equal(t, testCase.Expect, result, testCase.Print(result))
+		assert.Equal(t, testCase.Expected, result, testCase.Print(result))
 	}
 }
