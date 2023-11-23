@@ -28,6 +28,6 @@ func TestTranspose(t *testing.T) {
 	fmt.Println("------------------------LeetCode Problem 0867------------------------")
 	for _, testCase := range testCase {
 		result := transpose(testCase.Arg.([][]int))
-		assert.Equal(t, testCase.Expected, result)
+		assert.Equal(t, testCase.Expected, result, testCase.Print(result))
 	}
 }

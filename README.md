@@ -19,6 +19,7 @@
 | 0709 | 转换成小写字母        | [Go](./leetcode/0709.To-Lower-Case)                                        | Easy |
 | 0867 | 转置矩阵           | [Go](./leetcode/0867.Transpose-Matrix)                                     | Easy |
 | 1281 | 整数的各位积和之差      | [Go](./leetcode/1281.Subtract-the-Product-and-Sum-of-Digits-of-an-Integer) | Easy |
+| 1422 | 分割字符串的最大得分     | [Go](./leetcode/1422.Maximum-Score-After-Splitting-A-String)               | Easy |
 | 1470 | 重新排列数组         | [Go](./leetcode/1470.Shuffle-The-Array)                                    | Easy |
 | 1486 | 数组异或操作         | [Go](./leetcode/1486.XOR-Operation-in-an-Array)                            | Easy |
 | 1512 | 好数对的数目         | [Go](./leetcode/1512.Number-of-Good-Pairs)                                 | Easy |
@@ -28,6 +29,7 @@
 | 2236 | 判断根结点是否等于子结点之和 | [Go](./leetcode/2236.Root-Equals-Sum-of-Children)                          | Easy |
 | 2413 | 最小偶倍数          | [Go](./leetcode/2413.Smallest-Even-Multiple)                               | Easy |
 | 2469 | 温度转换           | [Go](./leetcode/2469.Convert-the-Temperature)                              | Easy |
+| 2586 | 统计范围内的元音字符串数   | [Go](./leetcode/2586.Count-The-Number-Of-Vowel-Strings-In-Range)           | Easy |
 
 ## 「新」动计划 · 编程入门
 
@@ -50,4 +52,6 @@
 | 0263 | 丑数             | [Go](./leetcode/0263.Ugly-Number)                                          | Easy |
 | 1470 | 重新排列数组         | [Go](./leetcode/1470.Shuffle-The-Array)                                    | Easy |
 | 0867 | 转置矩阵           | [Go](./leetcode/0867.Transpose-Matrix)                                     | Easy |
+| 1422 | 分割字符串的最大得分     | [Go](./leetcode/1422.Maximum-Score-After-Splitting-A-String)               | Easy |
+| 2586 | 统计范围内的元音字符串数   | [Go](./leetcode/2586.Count-The-Number-Of-Vowel-Strings-In-Range)           | Easy |
 

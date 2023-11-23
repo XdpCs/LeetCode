@@ -45,6 +45,6 @@ func TestShuffle(t *testing.T) {
 	fmt.Println("------------------------LeetCode Problem 1470------------------------")
 	for _, testCase := range testCases {
 		result := shuffle(testCase.Arg.(arg).nums, testCase.Arg.(arg).n)
-		assert.Equal(t, testCase.Expected, result)
+		assert.Equal(t, testCase.Expected, result, testCase.Print(result))
 	}
 }
