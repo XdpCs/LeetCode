@@ -13,10 +13,12 @@
 |------|-----------------------|-------------------------------------------------------------------------------|--------|
 | 0034 | 在排序数组中查找元素的第一个和最后一个位置 | [Go](./leetcode/0034.Find-First-And-Last-Position-Of-Element-In-Sorted-Array) | Medium |
 | 0035 | 搜索插入位置                | [Go](./leetcode/0035.Search-Insert-Position)                                  | Easy   |
+| 0069 | x的平方根                 | [Go](./leetcode/0069.Sqrtx)                                                   | Easy   |
 | 0231 | 2 的幂                  | [Go](./leetcode/0231.Power-Of-Two)                                            | Easy   |
 | 0258 | 各位相加                  | [Go](./leetcode/0258.Add-Digits)                                              | Easy   |
 | 0263 | 丑数                    | [Go](./leetcode/0263.Ugly-Number)                                             | Easy   |
 | 0326 | 3 的幂                  | [Go](./leetcode/0326.Power-Of-Three)                                          | Easy   |
+| 0367 | 有效的完全平方数              | [Go](./leetcode/0367.Valid-Perfect-Square)                                    | Easy   |
 | 0584 | 寻找用户推荐人               | [Sql](./leetcode/0584.Find-Customer-Referee)                                  | Easy   |
 | 0704 | 二分查找                  | [Go](./leetcode/0704.Binary-Search)                                           | Easy   |
 | 0709 | 转换成小写字母               | [Go](./leetcode/0709.To-Lower-Case)                                           | Easy   |
@@ -62,8 +64,12 @@
 
 ## 二分查找
 
+[笔记](./notes/Binary-Search.md)
+
 | 题号   | 标题                    | 题解                                                                            | 难度     |
 |------|-----------------------|-------------------------------------------------------------------------------|--------|
 | 0704 | 二分查找                  | [Go](./leetcode/0704.Binary-Search)                                           | Easy   |
 | 0035 | 搜索插入位置                | [Go](./leetcode/0035.Search-Insert-Position)                                  | Easy   |
 | 0034 | 在排序数组中查找元素的第一个和最后一个位置 | [Go](./leetcode/0034.Find-First-And-Last-Position-Of-Element-In-Sorted-Array) | Medium |
+| 0069 | x的平方根                 | [Go](./leetcode/0069.Sqrtx)                                                   | Easy   |
+| 0367 | 有效的完全平方数              | [Go](./leetcode/0367.Valid-Perfect-Square)                                    | Easy   |
