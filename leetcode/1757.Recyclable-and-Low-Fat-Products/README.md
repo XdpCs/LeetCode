@@ -23,7 +23,7 @@ recyclable 是枚举类型，取值为以下两种 ('Y', 'N')，其中 'Y' 表�
 
 返回结果格式如下例所示：
 
-**示例 1：**
+### 示例 1
 
 ```text
 输入：
@@ -64,4 +64,3 @@ from Products
 where low_fats = 'Y'
   and recyclable = 'Y';
 ```
-
