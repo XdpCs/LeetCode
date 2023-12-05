@@ -6,7 +6,7 @@
 
 如果根结点值等于两个子结点值之和，返回`true`，否则返回`false`。
 
-**示例 1：**
+### 示例 1
 
 ![example1](./images/example1.png)
 
@@ -15,7 +15,7 @@
 > 解释：根结点、左子结点和右子结点的值分别是 10 、4 和 6 。
 > 由于 10 等于 4 + 6 ，因此返回 true 。
 
-**示例 2：**
+### 示例 2
 
 ![example2](./images/example2.png)
 
@@ -24,7 +24,7 @@
 > 解释：根结点、左子结点和右子结点的值分别是 5 、3 和 1 。
 > 由于 5 不等于 3 + 1 ，因此返回 false 。
 
-**限制**
+### 限制
 
 * 树只包含根结点、左子结点和右子结点
 * `-100 <= Node.val <= 100`
@@ -56,4 +56,3 @@ func checkTree(root *TreeNode) bool {
 	return root.Val == (root.Left.Val + root.Right.Val)
 }
 ```
-

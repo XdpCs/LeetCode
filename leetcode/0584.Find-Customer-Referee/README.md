@@ -22,7 +22,7 @@
 
 结果格式如下所示。
 
-**示例 1：**
+### 示例 1
 
 ```text
 输入： 
@@ -66,4 +66,3 @@ from Customer
 where referee_id != 2
    or referee_id is null;
 ```
-
