@@ -101,7 +101,7 @@ func isPowerOfTwo(n int) bool {
 
 由于输入的是一个`int`类型，因此需要判断`n`是否大于`0`。
 
-### 代码
+### 方法三（位运算）代码
 
 ```go
 package leetcode
