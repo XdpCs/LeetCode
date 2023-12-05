@@ -50,6 +50,8 @@
 ## 代码
 
 ```go
+package leetcode
+
 func vowelStrings(words []string, left int, right int) int {
 	hashMap := map[byte]bool{
 		'a': true,
