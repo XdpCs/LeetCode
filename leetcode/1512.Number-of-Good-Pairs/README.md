@@ -41,7 +41,7 @@
 空间复杂度：O(n)
 
 先遍历输入的整数数组`nums`，然后用`哈希表`存储每个数字的数量，最后遍历`哈希表`
-，判断是否大于`1`，计算每个数字可以组成的好数对的数量：这是一个组合问题，组合的公式是$\frac{m!}{n!*(m-n)!}$。`m`
+，计算每个数字可以组成的好数对的数量：这是一个组合问题，组合的公式是 $\frac{m!}{n!*(m-n)!}$ 。`m`
 是每个数字的数量，`n`是`2`，通过约分可得到这个公式 $\frac{m*(m-1)}{2}$，即为这个数组成的好数对的数量，然后将每个数的好数对数量相加即为结果。
 
 ## 代码
@@ -50,18 +50,14 @@
 package leetcode
 
 func numIdenticalPairs(nums []int) int {
-	n := len(nums)
-	hashMap := make(map[int]int, n)
-	sum := 0
-	for _, num := range nums {
-		hashMap[num]++
+	hashMap := map[int]int{}
+	for _, n := range nums {
+		hashMap[n]++
 	}
-
+	count := 0
 	for _, v := range hashMap {
-		if v > 1 {
-			sum += v * (v - 1) / 2
-		}
+		count += v * (v - 1) / 2
 	}
-	return sum
+	return count
 }
 ```
