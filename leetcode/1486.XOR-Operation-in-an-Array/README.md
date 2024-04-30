@@ -65,7 +65,7 @@ func xorOperation(n int, start int) int {
 }
 ```
 
-### 方法二（数学）
+### 方法二（数学） 不推荐
 
 时间复杂度：O(1)
 

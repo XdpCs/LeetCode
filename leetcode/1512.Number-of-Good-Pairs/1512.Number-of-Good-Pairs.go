@@ -6,17 +6,13 @@ package leetcode
 // @Update       XdpCs 2023-09-25 16:39
 
 func numIdenticalPairs(nums []int) int {
-	n := len(nums)
-	hashMap := make(map[int]int, n)
-	sum := 0
-	for _, num := range nums {
-		hashMap[num]++
+	hashMap := map[int]int{}
+	for _, n := range nums {
+		hashMap[n]++
 	}
-
+	count := 0
 	for _, v := range hashMap {
-		if v > 1 {
-			sum += v * (v - 1) / 2
-		}
+		count += v * (v - 1) / 2
 	}
-	return sum
+	return count
 }
