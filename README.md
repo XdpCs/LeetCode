@@ -73,3 +73,4 @@
 | 0034 | 在排序数组中查找元素的第一个和最后一个位置 | [Go](./leetcode/0034.Find-First-And-Last-Position-Of-Element-In-Sorted-Array) | Medium |
 | 0069 | x的平方根                 | [Go](./leetcode/0069.Sqrtx)                                                   | Easy   |
 | 0367 | 有效的完全平方数              | [Go](./leetcode/0367.Valid-Perfect-Square)                                    | Easy   |
+| 0852 | 山脉数组的峰顶索引             | [Go](./leetcode/0852.Peak-Index-In-A-Mountain-Array)                          | Medium |

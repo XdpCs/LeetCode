@@ -27,3 +27,14 @@ func GetMaxInt32PowerOfThree() int {
 	}
 	return i / 3
 }
+
+func isPowerOfThreeLoop(n int) bool {
+	ans := 1
+	for n > ans {
+		ans = ans * 3
+	}
+	if n == ans {
+		return true
+	}
+	return false
+}

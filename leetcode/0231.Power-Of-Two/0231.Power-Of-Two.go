@@ -24,3 +24,13 @@ func isPowerOfTwoMaxNum(n int) bool {
 	maxPowerOfTwo := 1 << 30
 	return (n > 0) && (maxPowerOfTwo%n == 0)
 }
+
+func isPowerOfTwoLoop(n int) bool {
+	ans := 1
+	for ; n > ans; ans = ans << 1 {
+	}
+	if n == ans {
+		return true
+	}
+	return false
+}

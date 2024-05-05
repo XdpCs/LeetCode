@@ -53,3 +53,10 @@ func TestIsPowerOfThreeMath(t *testing.T) {
 		assert.Equal(t, testCase.Expected, result, testCase.Print(result))
 	}
 }
+func TestIsPowerOfThreeLoop(t *testing.T) {
+	fmt.Println("------------------------LeetCode Problem 0326------------------------")
+	for _, testCase := range testCases {
+		result := isPowerOfThreeLoop(testCase.Arg.(int))
+		assert.Equal(t, testCase.Expected, result, testCase.Print(result))
+	}
+}

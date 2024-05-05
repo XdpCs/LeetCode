@@ -43,7 +43,31 @@
 
 ## 解题思路
 
-### 方法一（数学）
+### 方法一（循环）
+
+时间复杂度：O(1)
+
+空间复杂度：O(1)
+
+通过不断地将`1`左移，直到大于等于`n`，然后判断`n`是否等于这个数。
+
+### 方法一（循环）代码
+
+```go
+package leetcode
+
+func isPowerOfTwo(n int) bool {
+	ans := 1
+	for ; n > ans; ans = ans << 1 {
+	}
+	if n == ans {
+		return true
+	}
+	return false
+}
+```
+
+### 方法二（数学）
 
 时间复杂度：O(1)
 
@@ -54,7 +78,7 @@
 
 由于输入的是一个`int`类型，因此需要判断`n`是否大于`0`。
 
-### 方法一（数学）代码
+### 方法二（数学）代码
 
 ```go
 package leetcode
@@ -64,7 +88,7 @@ func isPowerOfTwo(n int) bool {
 }
 ```
 
-### 方法二（打表）
+### 方法三（打表）
 
 时间复杂度：O(1)
 
@@ -74,7 +98,7 @@ func isPowerOfTwo(n int) bool {
 
 由于输入的是一个`int`类型，因此需要判断`n`是否大于`0`。
 
-### 方法二（打表）代码
+### 方法三（打表）代码
 
 ```go
 package leetcode
@@ -91,7 +115,7 @@ func isPowerOfTwo(n int) bool {
 }
 ```
 
-### 方法三（位运算）
+### 方法四（位运算）
 
 时间复杂度：O(1)
 
@@ -101,7 +125,7 @@ func isPowerOfTwo(n int) bool {
 
 由于输入的是一个`int`类型，因此需要判断`n`是否大于`0`。
 
-### 方法三（位运算）代码
+### 方法四（位运算）代码
 
 ```go
 package leetcode
