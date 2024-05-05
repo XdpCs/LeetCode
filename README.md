@@ -11,6 +11,7 @@
 
 | 题号   | 标题                    | 题解                                                                            | 难度     |
 |------|-----------------------|-------------------------------------------------------------------------------|--------|
+| 0001 | 两数之和                  | [Go](./leetcode/0001.Two-Sum)                                                 | Easy   |
 | 0034 | 在排序数组中查找元素的第一个和最后一个位置 | [Go](./leetcode/0034.Find-First-And-Last-Position-Of-Element-In-Sorted-Array) | Medium |
 | 0035 | 搜索插入位置                | [Go](./leetcode/0035.Search-Insert-Position)                                  | Easy   |
 | 0069 | x的平方根                 | [Go](./leetcode/0069.Sqrtx)                                                   | Easy   |
@@ -61,6 +62,18 @@
 | 1422 | 分割字符串的最大得分     | [Go](./leetcode/1422.Maximum-Score-After-Splitting-A-String)               | Easy   |
 | 2586 | 统计范围内的元音字符串数   | [Go](./leetcode/2586.Count-The-Number-Of-Vowel-Strings-In-Range)           | Easy   |
 | 0852 | 山脉数组的峰顶索引      | [Go](./leetcode/0852.Peak-Index-In-A-Mountain-Array)                       | Medium |
+
+## LeetCode 热题 100
+
+| 题号   | 标题   | 题解                            | 难度   |
+|------|------|-------------------------------|------|
+| 0001 | 两数之和 | [Go](./leetcode/0001.Two-Sum) | Easy |
+
+## 哈希
+
+| 题号   | 标题   | 题解                            | 难度   |
+|------|------|-------------------------------|------|
+| 0001 | 两数之和 | [Go](./leetcode/0001.Two-Sum) | Easy |
 
 ## 二分查找
 
