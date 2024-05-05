@@ -36,7 +36,32 @@
 
 ## 解题思路
 
-### 方法一（打表）
+### 方法一（循环）
+
+时间复杂度：O(1)
+
+空间复杂度：O(1)
+
+通过不断地乘`3`，直到大于等于`n`，然后判断`n`是否等于这个数。
+
+### 方法一（循环）代码
+
+```go
+package leetcode
+
+func isPowerOfThree(n int) bool {
+	ans := 1
+	for n > ans {
+		ans = ans * 3
+	}
+	if n == ans {
+		return true
+	}
+	return false
+}
+```
+
+### 方法二（打表）
 
 时间复杂度：O(1)
 
@@ -46,7 +71,7 @@
 
 由于输入的是一个`int`类型，因此需要判断`n`是否大于`0`。
 
-### 方法一（打表）代码
+### 方法二（打表）代码
 
 ```go
 package leetcode
@@ -63,7 +88,7 @@ func isPowerOfThree(n int) bool {
 }
 ```
 
-### 方法二（数学）
+### 方法三（数学）
 
 时间复杂度：O(1)
 
@@ -75,7 +100,7 @@ func isPowerOfThree(n int) bool {
 
 我们可能开始不知道这个数是多大，可以先用`GetMaxInt32PowerOfThree()`计算出来，然后再判断。
 
-### 方法二（数学）代码
+### 方法三（数学）代码
 
 ```go
 package leetcode

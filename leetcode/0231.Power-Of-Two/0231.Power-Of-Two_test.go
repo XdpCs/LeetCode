@@ -60,3 +60,10 @@ func TestIsPowerOfTwoMaxNum(t *testing.T) {
 		assert.Equal(t, testCase.Expected, result, testCase.Print(result))
 	}
 }
+func TestIsPowerOfTwoLoop(t *testing.T) {
+	fmt.Println("------------------------LeetCode Problem 0231------------------------")
+	for _, testCase := range testCases {
+		result := isPowerOfTwoLoop(testCase.Arg.(int))
+		assert.Equal(t, testCase.Expected, result, testCase.Print(result))
+	}
+}
